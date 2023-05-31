@@ -1,8 +1,8 @@
 :root {
-    --page-color-1: #183236    ;
-    --background-color-1: #EA6922;
-    --background-color-2: #E27E25;
-    --background-color-3: #b11212;
+    --page-color-1: #2F2A38    ;
+    --background-color-1: #F18932;
+    --background-color-2: #D16D61;
+    --background-color-3: #79919D;
     --white-text: #efeeef;
 }
 
@@ -14,12 +14,12 @@
     font-family: sans-serif;
 }
 
-a {
+/* a {
     color: black;
     text-decoration: none;
     position: relative;
     width: 100%;
-}
+} */
 
 /* Custom Styles */
 header {
@@ -200,6 +200,10 @@ h3 {
     animation: mask-reveal 10s forwards;
 }
 
+.textbox a{
+    text-align: center;
+}
+
 @keyframes reveal {
     0% {
         opacity: 0;
@@ -221,7 +225,7 @@ h3 {
 }
 
 .textbox img{
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     resize: both;
 }
