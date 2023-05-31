@@ -38,3 +38,8 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 adapted to a responsive layout size
+
+Notes:
+Very challenging to get things exactly the way you want it to get, but overall it has been a fun experience.
+
+I was able to get the page to be responsive and now I just have to add links to the images to get the project I want to show working.
