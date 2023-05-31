@@ -1,9 +1,9 @@
 :root {
-    --background-text-color: #3a3437;
-    --background-page-color: #261e23;
+    --background-color: #3a3437;
+    --page-color: #261e23;
     --box-color: #4e7081;
-    --section-page-color: #36bed2;
-    --page-text-color: #efeeef;
+    --section-color: #36bed2;
+    --white-text: #efeeef;
 }
 
 
@@ -44,7 +44,7 @@ a:hover:after {
     width: 100%;
     height: 3px;
     border-radius: 30px;
-    background-color: var(--background-text-color);
+    background-color: var(--background-color);
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -73,8 +73,8 @@ a:hover:after {
     grid-template-columns: 1.5fr 1fr;
     grid-template-rows: 1.5fr .5fr 2fr;
     align-items: center;
-    background-color: var(--background-text-color);
-    color: var(--page-text-color);
+    background-color: var(--background-color);
+    color: var(--white-text);
     padding: 36px 0px;
 }
 
@@ -133,14 +133,14 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
-    background-color: var(--background-page-color);
+    background-color: var(--page-color);
 }
 
-.title {
+h3 {
     justify-content: space-around;
     text-align: center;
     margin: 10px 0px 10px 0px;
-    color: var(--text-color);
+    color: var(--white-text);
 }
 
 
@@ -151,8 +151,8 @@ main {
     justify-content: center;
     text-align: left;
     margin: 15px 10px;
-    background-color: var(--background-text-color);
-    color: var(--text-color);
+    background-color: var(--background-color);
+    color: var(--page-text-color);
 }
 
 .textbox::before {
@@ -162,7 +162,7 @@ main {
     left: 0;
     right: 0;
     height: 100%;
-    background-color: var(--background-page-color);
+    background-color: var(--page-color);
     animation: mask-reveal 10s forwards;
 }
 
@@ -197,6 +197,12 @@ p {
     padding: 4px 8px;
     justify-content: center;
     text-align: center;
+}
+
+footer
+{
+    margin: 10px;
+    padding: 8px;
 }
 
 /* Desktop Syles */
