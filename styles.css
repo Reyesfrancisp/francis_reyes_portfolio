@@ -73,6 +73,8 @@ header a:hover:after {
     }
 }
 
+/* Styling for the main intro section/about me section of the page */
+
 .hero {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -116,7 +118,7 @@ header a:hover:after {
     align-self: center;
     margin: 5%;
     width: 80%;
-    max-width: 100%;
+    max-width: 370px;
     resize: both;
     opacity: 0;
     animation: fadeIn 5s ease-in forwards;
@@ -133,14 +135,23 @@ header a:hover:after {
     }
 }
 
+/* Styling for the main project section */
+
 .main-project{
     display: flex;
     flex-direction: column;
     position: relative;
+    place-items: center;
     padding: 3%;
     margin: 2%;
 }
+.main-project img{
+    width: 100%;
+    max-width: 600px;
+    resize: both;
+}
 
+/* Styling for the main section of the page */
 
 main {
     display: grid;
@@ -158,6 +169,7 @@ h3 {
     color: var(--white-text);
 }
 
+/* Styling for the textboxes in the main section */
 
 .textbox {
     display: flex;
@@ -167,7 +179,7 @@ h3 {
     animation: reveal 9s forwards;
     place-items: center; 
     margin: 15px 10px;
-    background-color: var(--background-color);
+    background-color: var(--section-color);
     color: var(--page-text-color);
 }
 
@@ -202,6 +214,13 @@ h3 {
     }
 }
 
+.textbox img{
+    width: 90%;
+    max-width: 400px;
+    resize: both;
+}
+/* Image spacing for the textboxes */
+
 main img
 {
     justify-content: space-around;
@@ -213,6 +232,8 @@ p {
     justify-content: center;
     text-align: center;
 }
+
+/* Footer CSS */
 
 footer
 {
@@ -229,7 +250,7 @@ footer nav a:not(:last-child) {
 }
 
 /* Desktop Syles */
-@media (min-width: 900px) {
+@media (min-width: 800px) {
     .hero {
         padding: 20px 0;
         font-size: 20px;
