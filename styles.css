@@ -166,8 +166,6 @@ main {
     background-color: var(--page-color-1);
 }
 
-
-
 h3 {
     color: black;
     justify-content: space-around;
@@ -277,7 +275,15 @@ footer a:hover:after {
 }
 
 /* Desktop Syles */
-@media (min-width: 800px) {
+@media (min-width: 900px) {
+
+    h1, h3, h4{
+        font-size: 200%;
+    }
+
+    p{
+        font-size: 120%;
+    }
     .hero {
         padding: 20px 0;
         font-size: 20px;
@@ -290,4 +296,5 @@ footer a:hover:after {
     {
         font-size: 150%;
     }
+
 }
